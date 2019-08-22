@@ -24,7 +24,7 @@ namespace BelajarDapper.App
                     ";database=" + database + 
                     ";User ID=" + userDb + 
                     ";Password=" + passwordDb + 
-                    ";Integrated Security=True;";
+                    ";Integrated Security=False;";
 
                 conn = new SqlConnection(conString);
                 conn.Open();
